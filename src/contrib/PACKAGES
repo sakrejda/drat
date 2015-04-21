@@ -5,3 +5,20 @@ License: GPL (>= 2)
 MD5sum: c11bf2eb3bd7168ed6f33e1c859744e3
 NeedsCompilation: no
 
+Package: integrator
+Version: 0.1
+Depends: RPostgreSQL, methods
+Imports: DBI
+License: GPL
+MD5sum: 5aeb35b93032ee48452befb2db8b3ae7
+NeedsCompilation: no
+
+Package: parsestan
+Version: 1.0
+Depends: integrator, digest
+Imports: Rcpp (>= 0.11.3)
+LinkingTo: Rcpp
+License: GPL-2
+MD5sum: 65eed5b3e815568b24b7f79b0a264106
+NeedsCompilation: yes
+
