@@ -1,3 +1,10 @@
+Package: context
+Version: 1.0
+Depends: jsonlite, magrittr, igraph
+License: GPL-2
+MD5sum: 1de31c6274e56029e99271499efd2ea2
+NeedsCompilation: no
+
 Package: drat
 Version: 0.0.3.1
 Suggests: git2r, knitr
@@ -10,7 +17,7 @@ Version: 0.1
 Depends: RPostgreSQL, methods
 Imports: DBI
 License: GPL
-MD5sum: 5aeb35b93032ee48452befb2db8b3ae7
+MD5sum: 53b2dfada66f2e083ca3653addaf978e
 NeedsCompilation: no
 
 Package: parsestan
@@ -19,6 +26,6 @@ Depends: integrator, digest
 Imports: Rcpp (>= 0.11.3)
 LinkingTo: Rcpp
 License: GPL-2
-MD5sum: 65eed5b3e815568b24b7f79b0a264106
-NeedsCompilation: yes
+MD5sum: edca40dde6062293b8422eb64536702c
+NeedsCompilation: no
 
